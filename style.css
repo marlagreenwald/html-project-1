@@ -19,7 +19,28 @@ img {
 }
 
 table {
-	display: block;
-	margin-left: auto;
-	margin-left: auto;
+	border: 50px solid #65a7d2;
+	text-align:center;
+	width:100%;
+	font-size:200%;
 }
+
+th {
+	font-size:250%;
+	}
+
+td {
+	width:50%;
+	}
+
+.attention {
+	background-color:#ddcfe1;
+	}
+	
+.amuse {
+	background-color:#FFFF99;
+	}
+	
+.nicknames {
+	background-color:#CCFF99
+	}
