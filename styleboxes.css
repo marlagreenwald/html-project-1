@@ -1,0 +1,39 @@
+.biggest {
+	background-color:#3366CC;
+	height:300px;
+	padding:100px;
+}
+
+.insidebiggest {
+	background-color:#00CCFF;
+	height:200px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	border:10px dotted #6633CC;
+}
+
+.bigger {
+	background-color:#6633CC;
+	height:300px;
+}
+
+.insidebigger {
+	background-color:#9999FF;
+	height:200px;
+	width:25%;
+	border:50px solid #00CCFF;
+}
+
+.big {
+	background-color:#000066;
+	height:200px;
+}
+
+.insidebig {
+	background-color:#3366CC;
+	height:100px;
+	width:50%;
+	float:right;
+	border:10px solid #9999FF;
+}
