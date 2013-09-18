@@ -3,12 +3,22 @@ html {
 }
 
 h1 {
-	background-color:#65a7d2;		
+	background-color:#65a7d2;
+	border-radius: 5px;
+	padding:10px;	
+}
+
+hr {
+	background-color:white;
+	color:white;
+	height:5px;
+	border-radius:5px;
 }
 
 section {
-	border: 2px solid grey;
 	background-color:#eeeeee;
+	border-radius: 5px;
+	padding:10px;
 }
 
 img {
@@ -18,11 +28,15 @@ img {
     margin-right: auto;
 }
 
-table {
+.table {
 	border: 50px solid #65a7d2;
+}
+
+table {
 	text-align:center;
 	width:100%;
 	font-size:200%;
+	border-radius:5px;
 }
 
 th {
@@ -33,14 +47,14 @@ td {
 	width:50%;
 	}
 
-.attention {
+.firstsection {
 	background-color:#ddcfe1;
 	}
 	
-.amuse {
+.secondsection {
 	background-color:#FFFF99;
 	}
 	
-.nicknames {
+.thirdsection {
 	background-color:#CCFF99
 	}
