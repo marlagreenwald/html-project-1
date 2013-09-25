@@ -9,21 +9,27 @@ h1 {
 
 h1, section, footer {
 	background-color:rgba(255,230,153,0.5);
-	padding:2px;
+	padding:1px;
 	border-radius:5px;
 	}
 	
 .sidebar {
-	height:200px;
-	width:200px;
+	width:25%;
+	text-align:left;
 	}
 	
 ul {
     list-style-type: none;
+    padding:1px;
+    margin:0;
 	}
 
 section {
 	margin-top:10px;
+	}
+	
+.column2, .column3 {
+	width:40%;
 	}
 
 .column1 {
@@ -34,10 +40,16 @@ section {
 	float:left;
 	}
 	
+.column3 {
+	float:left;
+	}
+	
 footer {
 	text-align:center;
 	clear:both;
-	margin-top:100px;
 	}
 /*Make a web page using floating, images, background images, semantic definitions of
-content (div, articles, headers, etc.), float objects and float within width-specific object*/
+content (div, articles, headers, etc.), float objects and float within width-specific object
+
+Needs complex selectors, floating, positioning and background images.  Use conceptual
+semantics, next positioning strategies, focus on polish*/
