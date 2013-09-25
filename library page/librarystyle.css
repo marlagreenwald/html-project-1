@@ -1,0 +1,43 @@
+html {
+	background-image:url(../img/librarybackground.jpg);
+	font-family: Georgia, Times New Roman, serif;
+	}
+	
+h1 {
+	height:
+	}
+
+h1, section, footer {
+	background-color:rgba(255,230,153,0.5);
+	padding:2px;
+	border-radius:5px;
+	}
+	
+.sidebar {
+	height:200px;
+	width:200px;
+	}
+	
+ul {
+    list-style-type: none;
+	}
+
+section {
+	margin-top:10px;
+	}
+
+.column1 {
+	float:left;
+	}
+	
+.column2 {
+	float:left;
+	}
+	
+footer {
+	text-align:center;
+	clear:both;
+	margin-top:100px;
+	}
+/*Make a web page using floating, images, background images, semantic definitions of
+content (div, articles, headers, etc.), float objects and float within width-specific object*/
