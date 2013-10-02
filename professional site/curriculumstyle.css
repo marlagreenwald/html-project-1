@@ -1,0 +1,67 @@
+html {
+	background-image:url(../img/librarybackground.jpg);
+	font-family: Georgia, Times New Roman, serif;
+	}
+	
+h1 {
+	height:
+	}
+
+h1, section, footer {
+	background-color:rgba(255,230,153,0.5);
+	padding:1px;
+	border-radius:5px;
+	}
+	
+.sidebar {
+	width:90%;
+	text-align:left;
+	}
+	
+ul {
+    list-style-type: none;
+    padding:1px;
+    margin:15px;
+    
+	}
+
+section {
+	margin-top:10px;
+	}
+
+.column1 {
+	float:left;
+	width:25%;
+	}
+	
+ .column2, .column3 {
+	float:left;
+	width:35%;
+	}
+
+.feature1, .feature2, .feature3:hover {
+	display: block;
+	visibility:visible;
+	background-color:rgba(255,230,153,0.5);
+	padding:1px;
+	}
+		
+.feature1 ul, .feature2 ul, .feature3 ul {
+	border:1px solid black;
+	background-color:rgba(255,230,153,0.5);
+	padding:1px;
+	visibility:hidden;
+	}
+	
+
+
+	
+footer {
+	text-align:center;
+	clear:both;
+	}
+/*Make a web page using floating, images, background images, semantic definitions of
+content (div, articles, headers, etc.), float objects and float within width-specific object
+
+Needs complex selectors, floating, positioning and background images.  Use conceptual
+semantics, next positioning strategies, focus on polish*/
